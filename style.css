@@ -1,0 +1,163 @@
+body {
+  background-color: #ffca3a;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #5fecc8;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2, p {
+  color:#1982c4;
+}
+
+h2 {
+  margin-top: -40px;
+}
+
+img {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* IDs */
+
+#header-card {
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 600px;
+}
+
+#title-bar {
+  position: relative;
+  left: 10px;
+}
+
+#image-card {
+  position: relative;
+  margin: auto;
+}
+
+#about-me {
+  text-align: justify;
+}
+
+#footer {
+  text-align: center;
+}
+
+/* Classes */
+
+.main-body {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.inline-list {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 30px;
+  margin: 0;
+}
+
+.inline-list > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.card-background {
+  background-color: #ff595e;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px #8ac926;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.link-color {
+  color: #6a4c93
+}
+
+.link-color:hover {
+  color: white
+}
+
+.header-font-size {
+  font-size: 75px;
+}
+
+.main-text-style {
+  font-size: 50px;
+}
+
+/* Media queries */
+
+@media (max-width: 960px) {
+  .main-body {
+    width: 700px;
+  }
+
+  img {
+    height: 200px;
+    width: 200px;
+    margin-left: -50px;
+  }
+}
+
+@media (max-width: 720px) {
+  .main-body {
+    width: 500px;
+  }
+
+  img {
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: -150px;
+  }
+
+  .header-font-size {
+    font-size: 60px;
+  }
+
+  .main-text-style {
+    font-size: 40px;
+  }
+
+  h2 {
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 540px) {
+  .main-body {
+    width: 350px;
+  }
+
+  img {
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: -180px;
+  }
+
+  .header-font-size {
+    font-size: 40px;
+  }
+
+  .main-text-style {
+    font-size: 40px;
+  }
+
+  h2 {
+    margin-top: 240px;
+  }
+}
